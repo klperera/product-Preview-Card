@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --BG_COLOR : hsl(26, 40%, 92%);
+}
+
+html{
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+body{
+    background: var(--BG_COLOR);
+}
+.container{
+    width: 85%;
+    background-color: aliceblue;
+    margin: 6rem auto;
+    border-radius: 5%;
+}
+.image_container img{
+    width: 100%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+.text_container{
+    background-color:  hsl(20, 5%, 95%);
+    padding: 3rem 2rem;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+.pro_type{
+    color: hsl(0, 1%, 53%);
+    font-size: 1.5rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.pro_name{
+    color: hsl(0, 2%, 10%);
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 2.5rem 0;
+}
+.pro_description{
+    color: hsl(0, 1%, 50%);
+    font-size: 1.5rem;
+    line-height: 1.7;
+}
+.price{
+    display: flex;
+    margin: 2rem 0;
+    align-items: center;
+}
+.dis_price{
+    font-size: 3rem;
+    font-weight: 1000;
+    color: hsl(158, 36%, 37%);
+}
+.selling_price{
+    text-decoration-line: line-through;
+    color: hsl(0, 1%, 50%);
+    font-size: 1.4rem;
+    margin-left: 3rem;
+}
+.addtocard{
+    width: 100%;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    font-size: 1.7rem;
+    padding: 1.5rem;
+    border: none;
+    border-radius: 1.5rem;
+}
+.attribution { 
+    font-size: 1.1rem; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
