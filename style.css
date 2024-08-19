@@ -18,7 +18,7 @@ body{
 .container{
     width: 85%;
     background-color: aliceblue;
-    margin: 6rem auto;
+    margin: 5rem auto;
     border-radius: 5%;
 }
 .image_container img{
@@ -81,4 +81,14 @@ body{
 }
 .attribution a { 
     color: hsl(228, 45%, 44%);
+}
+@media only screen and (min-width: 540px){
+    .container{
+        width: 50%;
+    }
+}
+@media only screen and (min-width: 768px){
+    .container{
+        width: 30%;
+    }
 }
